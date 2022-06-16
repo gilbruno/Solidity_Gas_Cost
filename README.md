@@ -54,7 +54,11 @@ If ETH price is 2000$ and gas cost is 50 the transaction cost to transfer ETH is
 
 ## "unchecked" statement
 
-When you use a uint256, if the value is greater than 256 bytes, you can have an overflow.
-For this overflow, the Opcode generated must handle this case of a greater value.
-With the "unchecked" statement you don't handle this case that makes the Opcode lighter.
-And the gas used is less 
+When you use a uint256, if the value is greater than 256 bytes, you can have an overflow.<br>
+For this overflow, the Opcode generated must handle this case of a greater value.<br>
+With the "unchecked" statement you don't handle this case that makes the Opcode lighter.<br>
+And the gas used is less.<br><br>
+
+This can be visible on the Counter smart contract of OpenZeppelin <br> 
+==> https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol
+
