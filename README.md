@@ -1,8 +1,8 @@
 # Description
 
-I write some smart contracts to learn abour gas cost and optimization
+I write some smart contracts to learn about gas cost and optimization
 
-Gas is measuring a unit of computation so it depends on the Solidity implementation.
+Gas is measuring a unit of computation so it depends on the Solidity implementation.<br>
 It does not cost the same price to transfer ETH or transfer an ERC20 Toekn or buy a NFT on OpenSea.
 
 ## Block Limits
@@ -15,13 +15,30 @@ It does not cost the same price to transfer ETH or transfer an ERC20 Toekn or bu
 
 ## Transaction fee smart contracts
 
+<table border="1">
+    <TR>
+        <TD>Operation</TD>
+        <TD>Gas Cost</TD>
+    </TR>
+    <tr>
+        <TD>ETH Transfer</TD>
+        <TD>21000</TD>
+    </tr>
+    <tr>
+        <TD>USDC Transfer</TD>
+        <TD>60825</TD>
+    </tr>
+    <tr>
+        <TD>Mint Bored Ape</TD>
+        <TD>173576</TD>
+    </tr>
+    <tr>
+        <TD>Buy on OpenSea</TD>
+        <TD>242499</TD>
+    </tr>
+</table>
 
-
-|Operation     |Gas Cost|
-|ETH Transfer  |21000   |
-|USDC Transfer |60825   |
-|Mint Bored Ape|173576  |
-|Buy on OpenSea|242499  |
+<br>
 
 ## Transaction price 
 
